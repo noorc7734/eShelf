@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="description" content="eShelf" />
+    
+
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="theme-color" content="black" />
+   
+    <title>The eShelf</title>
+  </head>
+  <body>
+    
+    <div class="header">
+  <img id="logo" src="https://cdn-icons.flaticon.com/png/512/2280/premium/2280151.png?token=exp=1639683066~hmac=83ae70350d0107c13d90ffa96192dc27" alt="Icon of book">
+      
+  <div class="header-right">
+    
+    <a class="active" href="#home">Search for books</a>
+    
+    <a href="#booklist">Your Booklist</a>
+    
+    <a href="#login">Log In</a>
+  </div>
+</div>
+    
+    <div class="container">
+      <div id="title" class="center">
+        <img class = "big" src="https://cdn-icons.flaticon.com/png/512/2280/premium/2280294.png?token=exp=1639683079~hmac=40790aab1f8015286585820ffc42d72c" alt="Icon of book">
+        <h1 id="header" class="text-center mt-5"> &#183; The eShelf &#183;</h1>
+        <div class="row">
+          <div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
+            <input id="search-box" type="text" class="form-control" placeholder="Search Books...">
+            <button id="search" class="btn btn-primary" onclick="">GO</button>
+        </div>
+        </div>
+      </div>
+      <div class="book-list" >
+        <h2><br> &darr; </h2>
+        <div id="list-output" class="">
+          <div class="row">
+            <!-- card  -->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+   
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </body>
+</html>
